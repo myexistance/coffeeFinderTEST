@@ -1,45 +1,33 @@
-.navbar {
-	height: 200px;
-	background-color: #292F3A;
+.navbar {	
+    min-height: 200px;
+}
+
+.logo {
 	vertical-align: middle;
-
+	height: 110px;
+	width:300px;
 }
 
-.logo {  /*logo size*/
-	height: 100px;
-	width: auto;
+.navbar-nav li a {
+ padding top: 150px;
+ line-height: 150px;
 }
-
 
 .navbar-brand {
-	position: relative;
-	top: 40px;
-	padding:10px 10px 10px 10px;
-	height: 120px;
-	width: auto;
-
+ line-height: 150px;
 }
 
-.nav {
-	padding: 10px 10px;
-	width: 60%;
-	height: 200%;
+navbar-toggle {
+	margin-top: 83px;
+	padding:9px 10px !important;
 }
 
-
-.dropdown {
-	margin: auto;
-	background-color: #292F3A;
-	position: relative;
-	top: 70px;
-	width: 25%;
+.dropdown-toggle {
+	min-width: 163px;
 }
 
-.DropContent {
-	color:black;
-	width: 100%;
-	height:auto;
-	/*text-align: center;*/
+.searchButton {
+	min-width: 170px;
 }
 
 .btnColorS{
@@ -64,3 +52,18 @@
 	background-color: #F0573D;
 	color: #FFFFFF;
 }
+
+
+
+
+@media (min-width: 320px) {
+	.navbar-nav > li > a {
+		padding-top: 86.5px
+		padding-bottom: 86.5px;
+		line-height: 27px;
+	}
+}
+
+
+
+

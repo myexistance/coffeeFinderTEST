@@ -1,64 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-     <title>Bootstrap Example</title>
+<head>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- custom css -->
   <link rel="stylesheet" type="text/css" href="mainsass/css/custom.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-    
-  </head>
-
-  <body>
-
-<nav class="navbar navbar-fixed-top">
+</head>
+<body>
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <!-- collapse button -->
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <!-- collapse button end -->
-      <img src="images/coffee-finder-logo-01.png" class="col-sm-4 logo navbar-brand" alt="logo">
+      <img src="images/coffee-finder-logo-01.png" class="col-sm-4 navbar-brand logo" alt="logo">
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar"> <!-- collapse  -->
-        <ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
           <li class="dropdown"><a class="dropdown-toggle btnColorL" data-toggle="dropdown" href="#">LOCATION <span class="caret"></span></a>
             <ul class="dropdown-menu DropContent">
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>CBD</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>TE ARO</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>NEW TOWN</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;CBD</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;TE ARO</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;NEW TOWN</label></li>
             </ul>
           </li>
           <li class="dropdown"><a class="dropdown-toggle btnColorT" data-toggle="dropdown" href="#">COFFEE TYPE <span class="caret"></span></a>
             <ul class="dropdown-menu DropContent">
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>FLAT WHITE</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>LONG BALCK</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>CAPPUCCINO</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;FLAT WHITE</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;LONG BLACK</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;CAPPUCCINO</label></li>
             </ul>
           </li>
           <li class="dropdown"><a class="dropdown-toggle btnColorB" data-toggle="dropdown" href="#">BRAND <span class="caret"></span></a>
             <ul class="dropdown-menu DropContent">
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>HAVANA</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>FLIGHT</label></li>
-              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>MOJO</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;HAVANA</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;FLIGHT</label></li>
+              <li><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="optradio" checked>&nbsp;&nbsp;MOJO</label></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#">SEARCH</a></li>
+          <li class="dropdown"><a class="searchButton" href="#">SEARCH</a></li>
         </ul>
-      </div>
+    </div>
   </div>
 </nav>
   
+<div class="container">
+  <h3>Content</h3>
 
-
+</div>
 </body>
 </html>
-
