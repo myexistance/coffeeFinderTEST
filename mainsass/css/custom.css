@@ -1,0 +1,66 @@
+.navbar {
+	height: 200px;
+	background-color: #292F3A;
+	vertical-align: middle;
+
+}
+
+.logo {  /*logo size*/
+	height: 100px;
+	width: auto;
+}
+
+
+.navbar-brand {
+	position: relative;
+	top: 40px;
+	padding:10px 10px 10px 10px;
+	height: 120px;
+	width: auto;
+
+}
+
+.nav {
+	padding: 10px 10px;
+	width: 60%;
+	height: 200%;
+}
+
+
+.dropdown {
+	margin: auto;
+	background-color: #292F3A;
+	position: relative;
+	top: 70px;
+	width: 25%;
+}
+
+.DropContent {
+	color:black;
+	width: 100%;
+	height:auto;
+	/*text-align: center;*/
+}
+
+.btnColorS{
+	background-color: #FFFFFF;
+
+}
+
+.btnColorB{
+	background-color: #30364C;
+	color: #FFFFFF;
+
+}
+
+
+.btnColorT{
+	background-color: #73CDD9;
+	color: #FFFFFF;
+
+}
+
+.btnColorL{
+	background-color: #F0573D;
+	color: #FFFFFF;
+}
