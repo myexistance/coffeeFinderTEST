@@ -1,0 +1,121 @@
+body, html {
+    height: 85%;
+    margin: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+/*//DASHBOARD LAYOUT//*/
+
+.dashboard__image {
+	height: 100vh; 
+	background-image: url("../../images/coffee-photo.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0 !important;
+}
+
+.dashboard__welcome {
+	font-family: $font;
+	font-weight: 800;
+	font-size: 50px;
+	color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard__para {
+	font-family: $font;
+	font-weight: 400;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  
+ /*//DASHBOARD LAYOUT//*/
+
+.dashboard__image {
+	height: 100vh; 
+	background-image: url("../../images/coffee-photo.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0 !important;
+}
+
+.dashboard__welcome {
+	font-family: $font;
+	font-weight: 800;
+	font-size: 50px;
+	color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard__para {
+	font-family: $font;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+ /*//DASHBOARD LAYOUT//*/
+
+.dashboard__image {
+	height: 100vh; 
+	background-image: url("../../images/coffee-photo.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  bottom: 0 !important;
+}
+
+.dashboard__welcome {
+	font-family: $font;
+	font-weight: 800;
+	font-size: 80px;
+	color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard__para {
+	font-family: $font;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+}

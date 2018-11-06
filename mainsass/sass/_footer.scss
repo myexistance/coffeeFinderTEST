@@ -1,0 +1,188 @@
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+#footer {
+  padding: 10px 0;
+  background-color: $dark-blue;
+  width: 100%;
+  position: fixed;
+  height: 120px;
+  bottom: 0 !important;
+}
+
+.footer__copyright {
+  font-size: 10px;
+  font-family: $font;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.footer__socialicons {
+  text-align: center;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 5 5px;
+}
+
+.social-network a {
+  background-color: $red-orange;
+  color: #FFFFFF;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:30px;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF !important;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+#footer {
+  padding: 10px 0;
+  background-color: $dark-blue;
+  width: 100%;
+  position: fixed;
+  height: 120px;
+  bottom: 0 !important;
+}
+
+.footer__copyright {
+  padding-top: 1%;
+  font-size: 13px;
+  font-family: $font;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer__socialicons {
+  text-align: center;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 5 5px;
+}
+
+.social-network a {
+  background-color: $red-orange;
+  color: #FFFFFF;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:30px;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF !important;
+}
+}
+
+@media screen and (min-width: 1025px) {
+
+#footer {
+  padding: 10px 0;
+  background-color: $dark-blue;
+  width: 100%;
+  position: fixed;
+  height: 130px;
+  bottom: 0 !important;
+}
+
+.footer__copyright {
+  padding-top: 1%;
+  font-size: 14px;
+  font-family: $font;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.footer__socialicons {
+  text-align: center;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left:0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 5 5px;
+}
+
+.social-network a {
+  background-color: $red-orange;
+  color: #FFFFFF;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  border-radius:50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+.social-circle li i {
+  margin:0;
+  line-height:30px;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF !important;
+}
+}
+
