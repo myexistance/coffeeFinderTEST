@@ -4,23 +4,25 @@
 }
 
 .btnColorS{
-	background-color: #000000;
+	background-color: $dark-blue;
+	
+	/*color: $dark-blue;*/
 }
 
 .btnColorB{
-	background-color: #30364C;
-	color: #FFFFFF;
+	background-color: $teal;
+	color: $white;
 }
 
 .btnColorT{
-	background-color: #73CDD9;
-	color: #FFFFFF;
+	background-color: $blue;
+	color: $white;
 
 }
 
 .btnColorL{
-	background-color: #F0573D;
-	color: #FFFFFF;
+	background-color: $red-orange;
+	color: $white;
 }
 
 @media (min-width: 320px) {

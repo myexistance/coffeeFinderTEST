@@ -555,14 +555,15 @@ body, html {
   min-width: 150px; }
 
 .btnColorS {
-  background-color: #000000; }
+  background-color: #292F3A;
+  /*color: $dark-blue;*/ }
 
 .btnColorB {
-  background-color: #30364C;
+  background-color: #73CDD9;
   color: #FFFFFF; }
 
 .btnColorT {
-  background-color: #73CDD9;
+  background-color: #30364C;
   color: #FFFFFF; }
 
 .btnColorL {
