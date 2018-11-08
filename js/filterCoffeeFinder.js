@@ -58,4 +58,21 @@
         $(".dashboard").hide();
       });
     }
+    function allFlatWhite(){
+      $(function(){
+        $(".fWhite").show();
+      });
+
+      $(function(){
+        $(".lBlack").hide();
+      });
+
+      $(function(){
+        $(".teAro").hide();
+      });
+
+      $(function(){
+        $(".cappuccino").hide();
+      });
+    }
 
