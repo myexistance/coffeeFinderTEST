@@ -269,6 +269,9 @@ body, html {
   .no-padding {
     margin-bottom: 0 !important; } }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .containResults {
+    height: 572px; }
+
   .my__col {
     border: 1px solid #292F3A;
     max-width: 100%;
@@ -331,6 +334,9 @@ body, html {
   .no-padding {
     margin-bottom: 0 !important; } }
 @media screen and (min-width: 1025px) {
+  .containResults {
+    height: 1050px; }
+
   .my__col {
     border: 1px solid #292F3A;
     max-width: 100%;
@@ -400,7 +406,6 @@ body, html {
     padding: 10px 0;
     background-color: #292F3A;
     width: 100%;
-    position: fixed;
     height: 120px;
     bottom: 0 !important; }
 
@@ -452,7 +457,6 @@ body, html {
     padding: 10px 0;
     background-color: #292F3A;
     width: 100%;
-    position: fixed;
     height: 120px;
     bottom: 0 !important; }
 

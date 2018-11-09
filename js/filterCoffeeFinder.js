@@ -1,26 +1,11 @@
-// $(function(){
-//   $('#all').click(function(){
-//     $('.item').show();
-//     return false;
-//   });
-  
-//   $('#cbd').click(function(){
-//     $('.item').show();
+
     function allCbd(){
       $(function(){
         $(".cbd").show();
       });
 
       $(function(){
-        $(".teAro").hide();
-      });
-
-      $(function(){
-        $(".newtown").hide();
-      });
-
-      $(function(){
-        $(".dashboard").hide();
+        $(".teAro .newtown .dashboard").hide();
       });
     }
 
@@ -30,49 +15,40 @@
       });
 
       $(function(){
-        $(".cbd").hide();
-      });
-
-      $(function(){
-        $(".newtown").hide();
-      });
-
-      $(function(){
-        $(".dashboard").hide();
+        $(".cbd .newtown .dashboard").hide();
       });
     }
+
     function allNewTown(){
       $(function(){
         $(".newtown").show();
       });
 
       $(function(){
-        $(".cbd").hide();
+        $(".cbd .teAro .dashboard").hide();
       });
 
-      $(function(){
-        $(".teAro").hide();
-      });
-
-      $(function(){
-        $(".dashboard").hide();
-      });
     }
+
     function allFlatWhite(){
       $(function(){
         $(".fWhite").show();
       });
 
       $(function(){
-        $(".lBlack").hide();
-      });
-
-      $(function(){
-        $(".teAro").hide();
-      });
-
-      $(function(){
-        $(".cappuccino").hide();
+        $(".lBlack .cappuccino .dashboard").hide();
       });
     }
 
+    function allFlatWhite(){
+      $(function(){
+        $(".fWhite").show();
+      });
+
+      $(function(){
+        $(".lBlack .cappuccino .dashboard").hide();
+      });
+    }
+
+
+//pure javascript

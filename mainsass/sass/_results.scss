@@ -84,7 +84,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
+.containResults{
+	height: 572px;
+}
 .my__col {
 	border: 1px solid $dark-blue;
 	max-width: 100%;
@@ -162,6 +164,10 @@
 }
 
 @media screen and (min-width: 1025px) {
+
+.containResults{
+	height: 1050px;
+}
 
 .my__col {
 	border: 1px solid $dark-blue;
