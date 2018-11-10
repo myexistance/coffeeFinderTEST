@@ -1,23 +1,23 @@
 
-    function allCbd(){
-      $(function(){
-        $(".cbd").show();
-      });
+    // function allCbd(){
+    //   $(function(){
+    //     $(".cbd").show();
+    //   });
 
-      $(function(){
-        $(".teAro .newtown .dashboard").hide();
-      });
-    }
+    //   $(function(){
+    //     $(".teAro .newtown .dashboard").hide();
+    //   });
+    // }
 
-    function allteAro(){
-      $(function(){
-        $(".teAro").show();
-      });
+    // function allteAro(){
+    //   $(function(){
+    //     $(".teAro").show();
+    //   });
 
-      $(function(){
-        $(".cbd .newtown .dashboard").hide();
-      });
-    }
+    //   $(function(){
+    //     $(".cbd .newtown .dashboard").hide();
+    //   });
+    // }
 
     function allNewTown(){
       $(function(){
@@ -52,3 +52,18 @@
 
 
 //pure javascript
+var result = $('input:radio[name="option"]:checked').val();
+if (result === 'allCbd') {
+  $(".cbd").show();
+}else if (result !== 'allCbd') {
+  $(".teAro .newtown .dashboard").hide();
+}
+
+var result = $('input:radio[name="option"]:checked').val();
+if (result === 'allteAro') {
+  $(".teAro").show();
+}else if (result !== 'allteAro') {
+  $(".cbd .newtown .dashboard").hide();
+}
+
+ 
