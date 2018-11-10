@@ -1,12 +1,14 @@
+.bg-dark {
+	background-color: $dark-blue !important;
+}
+
 .nav-item{
 	min-width: 150px;
 	
 }
 
 .btnColorS{
-	background-color: $dark-blue;
-	
-	/*color: $dark-blue;*/
+	background-color: $blue;
 }
 
 .btnColorB{
@@ -26,19 +28,20 @@
 }
 
 @media (min-width: 320px) {
-	.navbar-nav > li > a {
+	
+.navbar-nav > li > a {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		line-height: 27px;
-	}
+}
 
-	.nav-item .dropdown-toggle {
+.nav-item .dropdown-toggle {
         text-align: center;
-    }
+}
 
-    .nav-link {
+.nav-link {
     	text-align: center;
-    }
+}
 }
 
 

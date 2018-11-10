@@ -1,11 +1,11 @@
 *{
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;   
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 320px){
 
 .my__col {
 	border: 1px solid $dark-blue;
@@ -17,7 +17,7 @@
 	float: left;
 	width: 38%;
 	max-width: 100%;
-    height: auto;    
+    height: 100%;    
     display: block;
 
 }
@@ -26,7 +26,7 @@
 	float: left;
 	width: 62%;
 	height: 100%;
-	padding: 0 20px;
+	padding: 0 10px;
 	padding-top: 12px; 
 }
 
@@ -70,12 +70,92 @@
 
 .checked {
     color: $red-orange;
-    font-size: 14px;
+    font-size: 12px;
+
 }
 
 .unchecked {
     color: $dark-blue;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.no-padding {
+	margin-bottom: 0 !important;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+.my__col {
+	border: 1px solid $dark-blue;
+	max-width: 100%;
+    height: auto;
+}
+
+.results__image {
+	float: left;
+	width: 38%;
+	max-width: 100%;
+    height: 100%;    
+    display: block;
+
+}
+
+.results__description {
+	float: left;
+	width: 62%;
+	height: 100%;
+	padding: 0 10px;
+	padding-top: 12px; 
+}
+
+.col::after {
+	clear: left;
+
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.coffee__shop {
+	width: 100%;
+	max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.results__cafe {
+	font-family: $font;
+	color: $dark-blue;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.results__location {
+	font-family: $font;
+	color: $dark-blue;
+	font-weight: 100;
+	font-size: 15px;
+}
+
+.results__coffeetype {
+	font-family: $font;
+	color: $dark-blue;
+	font-weight: 100;
+	font-size: 9px;
+}
+
+.checked {
+    color: $red-orange;
+    font-size: 8px;
+
+}
+
+.unchecked {
+    color: $dark-blue;
+    font-size: 8px;
 }
 
 .no-padding {
@@ -84,9 +164,7 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-.containResults{
-	height: 572px;
-}
+
 .my__col {
 	border: 1px solid $dark-blue;
 	max-width: 100%;
@@ -97,7 +175,7 @@
 	float: left;
 	width: 45%;
 	max-width: 100%;
-    height: auto;
+    height: 100%;
     margin-bottom: 0 !important;
     display: block;
 }
@@ -131,14 +209,14 @@
 	font-family: $font;
 	color: $dark-blue;
 	font-weight: 700;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .results__location {
 	font-family: $font;
 	color: $dark-blue;
 	font-weight: 100;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .results__coffeetype {
@@ -165,8 +243,8 @@
 
 @media screen and (min-width: 1025px) {
 
-.containResults{
-	height: 1050px;
+.container-fluid {
+	margin-bottom: 130px;
 }
 
 .my__col {
@@ -179,7 +257,7 @@
 	float: left;
 	width: 40%;
 	max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
 
 }
