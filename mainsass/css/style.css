@@ -635,7 +635,7 @@ body, html {
   background-color: #F0573D;
   color: #FFFFFF; }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .navbar-nav > li > a {
     padding-top: 20px;
     padding-bottom: 20px;
